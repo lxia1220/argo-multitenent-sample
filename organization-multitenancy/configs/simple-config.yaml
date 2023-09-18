@@ -1,0 +1,7 @@
+id: scrum-one
+
+sourceRepos:
+  - https://github.com/organization/department/team-one/*
+
+admins: 
+  system-team: 00000000-0000-0000-0000-000000000000
