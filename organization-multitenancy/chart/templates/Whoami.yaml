@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: whoami
-  namespace: traefik
+  namespace: { { printf "%s*" .Values.id } }
 spec:
   replicas: 1
   selector:
