@@ -22,6 +22,7 @@ spec:
       kind: '*'
   sourceNamespaces:
     - {{ printf "argocd-%s" .Values.id }}
+    - {{ printf "%s" .Values.id }}
   roles:
     - name: admins
       description:  {{ printf "%s Admin role" .Values.id }} 
